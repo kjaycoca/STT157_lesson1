@@ -1,0 +1,19 @@
+---
+title: "(Thesis Title)"
+author: "Kjay Coca"
+date: "`r Sys.time()`"
+site: bookdown::bookdown_site
+output:
+  bookdown:::gitbook: default
+bibliography: ["myref.bib"]
+biblio-style: "apalike"
+link-citations: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Abstract {-}
+
+This is an R Markdown abstract.
